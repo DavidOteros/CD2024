@@ -1,13 +1,8 @@
 /* Programa: Hola mundo */
-
-#include <conio.h>
 #include <stdio.h>
 
-int main()
+void main()
 {
-    printf( "Hola mundo." );
-
-    getch(); /* Pausa */
-
-    return 0;
+    printf( "Son un developer top\n" );
+    printf( "Son un developer top top\n" );
 }
