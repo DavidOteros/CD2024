@@ -1,6 +1,6 @@
 ## Apuntamentos
 
-Comandos terminal
+Comandos terminal de terminator:
 - ls (Te muestra todas las carpetas)
 - clear
 - ls -a (Te muestra la carpeta, oculta y no oculta)
