@@ -11,7 +11,7 @@ public class Matematica {
 
         double raiz;
         double potencia;
-        int num; 
+        int num = 0; 
         raiz = Math.sqrt(36);
 
         System.out.println("O resultado é: " + raiz);
