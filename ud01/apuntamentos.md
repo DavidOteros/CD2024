@@ -33,3 +33,5 @@ Dos veces tabulador después de un comando sin haberlo mandado de momento, te sa
 
 - Control Izq. + "Espacio" = abre bloques predefinidos de código 
 - Punto de control ponse non donde se definen variables senon onde se executan
+
+
