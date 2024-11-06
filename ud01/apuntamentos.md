@@ -7,6 +7,7 @@
 - cd (Permiteche moverte ao directorio que ti queiras) e se lle das dúas veces tabulador mostrache as opcións que tes. 
 - "man" delante de por ejemplo "cat", te explica todas sus opciones es decir: **man cat** y para salir **q** de *quit*
 - ls -a (Te muestra la carpeta, oculta y no oculta)
+- ll (Mostrache arquivos ocultos)
 - cd (Te permite introducirte en la carpeta que estas visualizando)
 - pwd (Te enseña donde estas)
 - "./" representa la carpeta donde estas 
@@ -27,8 +28,8 @@ Dos veces tabulador después de un comando sin haberlo mandado de momento, te sa
 - Dos veces tabulador después de un comando sin haberlo mandado de momento, te saldrán sus opciones. Por ejemplo; apt y "dale dos veces al tab"
 - "nano" es un editor de texto dentro del propio terminal
 - sudo apt dist-upgrade (Para actualizar o sistema enteiro)
-
-
+- touch (Te permite crear arquivos baleiros)
+- cd .. (Para ir hacia atrás)
 ## Nombre de una clase en java, tiene que coincidir con el nombre del archivo 
 
 - Control Izq. + "Espacio" = abre bloques predefinidos de código 
