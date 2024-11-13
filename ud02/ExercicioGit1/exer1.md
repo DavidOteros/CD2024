@@ -74,5 +74,5 @@
 
 > cat david.txt actividades.txt
 
-![Screenshot ](/ud02/ExercicioGit/git%20switch.jpg)
+![Screenshot ](/ud02/ExercicioGit1/git%20switch.jpg)
 
