@@ -28,6 +28,9 @@
 - `touch`: Crea archivos vacíos.
 - `cd ..`: Permite moverse al directorio superior (ir hacia atrás).
 
+
+
+
 ## Comandos básicos de Git
 
 - `git init`: Inicializa un repositorio de Git en el directorio actual.
@@ -43,7 +46,14 @@
 - `.gitignore`: Se utiliza para ignorar ciertos archivos o carpetas en el repositorio. Para configurarlo, crea y edita un archivo llamado `.gitignore`. 
 Para crearlo utiliza `touch .git ignore`
 - `git branch -m main <nuevo_nombre>` Se utiliza para cambiar de nombre a la rama local
+- `git commit --amend -m <mensaje>` Te permite cambiar el nombre del anterior commit que hayas hecho
+- `git mv <archivo> <nombre del archivo al que quieres cambiar>`: Te permite cambiar de nombre un archivo
+- `git diff`: Para ver qué has cambiado pero aún no has preparado
+-  `git diff --staged`: Este comando compara tus cambios preparados con la última instantánea confirmada. Si ejecutamos ahora `git diff –staged` no veremos nada (ya que no hay nada preparado).
 
+el -git ignore se hace siempre en la raíz del respositorio
+
+git add * añade esos archivos y carpetas al área de preparación (staging area) para que estén listos para ser confirmados (committed). El `git add *`excluye los archivos ocultos
 
 ## Notas sobre Java
 
