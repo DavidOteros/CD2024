@@ -56,7 +56,7 @@ touch kk.txt cc.txt
 ## Eliminación de la sección de aficiones del archivo "actividades.txt"
 Elimino la sección de aficiones en el archivo `actividades.txt`:
 
-```bash
+```
 nano actividades.txt
 ```
 
