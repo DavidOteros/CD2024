@@ -37,19 +37,27 @@
 - `git add <archivo>`: Añade un archivo al área de preparación (staging area).
 - `git commit -m "<mensaje>"`: Realiza un commit con un mensaje descriptivo.
 - `git status`: Muestra el estado actual del repositorio (archivos modificados, en staging, etc.).
+- `git status --short`: Nos ofrece una salida abreviada bajo los siguientes alisas:
+  1. Archivo modificado (M)
+  1. Archivo no rastreado (??)
+  1. Archivo prreparado (A)
 - `git log`: Muestra el historial de commits.
+- `git log -p -2`: Lo que hace es que se muestren únicamente los dos últmos commits
+- `git log --since=2.weeks`: Te permite limitar la salida. Las opciones temporales como –since (desde) y –until (hasta) resultan muy útiles. Por ejemplo, este comando lista todas las confirmaciones hechas durante las dos últimas semanas:
 - `git log --oneline`: Muestra el historial de commits en una sola línea por commit.
-- `git checkout <commit>`: Permite moverse a un commit específico (para explorar su estado).
+- `git checkout <commit>`: Permite moverse a un commit específico (para explorar su estado). Hay que copiar los 10 primeros caracteres del commit 
+- `git checkout master`:  Nos permite volver a la rama master, pero si fuese `main` también sería correcto. 
 - `git switch -`: Vuelve a la rama o estado anterior después de usar `checkout`.
 - `git add .`: Añade todos los archivos del directorio actual al área de preparación.
+- `git restore <archivo>`: A veces modificamos un archivo por error o simplemente los cambios que hicimos eran pruebas y no nos interesan. Si queremos descartar los cambios. Ejemplo: `git restore libros.txt`
 - `git rm <archivo>`: Elimina un archivo del repositorio y del directorio.
 - `.gitignore`: Se utiliza para ignorar ciertos archivos o carpetas en el repositorio. Para configurarlo, crea y edita un archivo llamado `.gitignore`. 
-Para crearlo utiliza `touch .git ignore`
+  Para crearlo utiliza `touch .git ignore`
 - `git branch -m main <nuevo_nombre>` Se utiliza para cambiar de nombre a la rama local
 - `git commit --amend -m <mensaje>` Te permite cambiar el nombre del anterior commit que hayas hecho
 - `git mv <archivo> <nombre del archivo al que quieres cambiar>`: Te permite cambiar de nombre un archivo
-- `git diff`: Para ver qué has cambiado pero aún no has preparado
--  `git diff --staged`: Este comando compara tus cambios preparados con la última instantánea confirmada. Si ejecutamos ahora `git diff –staged` no veremos nada (ya que no hay nada preparado).
+- `git diff`: Para ver qué has cambiado pero aún no has preparado. Es importante **resaltar** que al llamar a `git diff` sin parámetros no verás los cambios desde tu última confirmación, solo verás los cambios que aún no están preparados. Esto puede ser confuso porque si preparas todos tus cambios, `git diff` no te devolverá ninguna salida.
+-  `git diff --staged`: Este comando compara tus cambios preparados con la última instantánea confirmada. Si ejecutamos  `git diff –staged` después de un `commit` no veremos nada ya que no habrá nada preparado
 
 el -git ignore se hace siempre en la raíz del respositorio
 
