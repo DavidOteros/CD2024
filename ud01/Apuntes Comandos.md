@@ -58,6 +58,11 @@
 - `git mv <archivo> <nombre del archivo al que quieres cambiar>`: Te permite cambiar de nombre un archivo
 - `git diff`: Para ver qué has cambiado pero aún no has preparado. Es importante **resaltar** que al llamar a `git diff` sin parámetros no verás los cambios desde tu última confirmación, solo verás los cambios que aún no están preparados. Esto puede ser confuso porque si preparas todos tus cambios, `git diff` no te devolverá ninguna salida.
 -  `git diff --staged`: Este comando compara tus cambios preparados con la última instantánea confirmada. Si ejecutamos  `git diff –staged` después de un `commit` no veremos nada ya que no habrá nada preparado
+- **Eliminar Archivos**: Si simplemente eliminas el archivo de tu directorio de trabajo, aparecerá en la sección “Changes not staged for commit” (esto es, sin preparar) en la salida de `git status`. Ejemplo: Vamos a eliminar el fichero canciones.txt, `rm canciones.txt` y hacemos un `git status`. Cuando eliminas un archivo usando un comando como rm canciones.txt, simplemente estás borrándolo del sistema de archivos, no del control de versiones de Git. Git detecta que el archivo ya no está en tu directorio de trabajo.
+Al ejecutar `git status`, el archivo aparece como "Cambios no rastreados para el commit". Esto significa que Git nota que el archivo fue eliminado, pero no lo ha preparado para que ese cambio (la eliminación) se incluya en el próximo commit.
+Para que Git registre formalmente que deseas eliminar el archivo del repositorio, debes usar el comando `git rm`. Este comando: `git rm canciones.txt`. De esta manera, elimina el archivo si aún existe e tu sistema de archivos y la eliminación se prepara para el próximo commit. **Si solo usas rm para eliminar el archivo, Git no lo sabrá automáticamente porque el control de versiones no sigue cambios en el sistema de archivos directamente. Al usar git rm, le indicas a Git que esa eliminación es un cambio que deseas incluir en tu historial de commits.**
+
+
 
 el -git ignore se hace siempre en la raíz del respositorio
 
