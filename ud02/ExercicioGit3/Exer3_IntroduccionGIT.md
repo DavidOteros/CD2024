@@ -75,7 +75,7 @@
 
 2. Añadí los cambios al área de preparación y realicé un commit:
    ```
-   git add ..
+   git add .
    git commit -m "Añadido capitulo 2"
    ```
 
@@ -88,21 +88,21 @@
    nano capitulo3.txt
    ```
 
-1. Ver el estado del repositorio de forma abreviada:
+2. Ver el estado del repositorio de forma abreviada:
    ````
    git status -s
    `````
    Me devolvió `?? capitulo3.txt` que significa que el archivo está sin seguimiento
 
-2. Añadí un nuevo capítulo al archivo **indice.txt**:
+3. Añadí un nuevo capítulo al archivo **indice.txt**:
    ```
    Capitulo 5: Frozen
    ```
-3. Ignore el capitulo3.txt con un .gitignore
-   ````
+4. Ignore el capitulo3.txt con un .gitignore
+   ```
    nano .gitignore
-   ````
-3. Añadí y confirmé los cambio ignorando el capitulo3.txt
+   ```
+5. Añadí y confirmé los cambio ignorando el capitulo3.txt
    ```
    git add indice.txt .gitignore
    git commit -m "Añadido Capitulo 5: Frozen e ignorado capitulo3.txt"
