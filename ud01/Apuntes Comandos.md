@@ -4,7 +4,7 @@
 
 - `ls`: Muestra las carpetas del directorio actual.
 - `clear`: Limpia la terminal.
-- `cat`: Permite visualizar el contenido de un archivo.
+- `cat`: Permite visualizar el contenido de un archivo. Darle a `q`para salir. 
 - `cd`: Permite moverse al directorio deseado. Si presionas dos veces la tecla tabulador, muestra las opciones disponibles.
 - `man`: Muestra el manual de un comando. Ejemplo: `man cat`. Para salir del manual, utiliza la tecla **q** (de *quit*).
 - `ls -a`: Muestra todos los archivos, incluyendo los ocultos.
