@@ -1,5 +1,5 @@
 
-# Exercicio 2 - Introducción GIT
+# Exercicio 3 - Introducción GIT
 
 ## 1. Crear y Configurar el Repositorio
 

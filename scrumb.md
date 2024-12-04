@@ -1,4 +1,0 @@
-# SCRUMB 
-
-Conceptos claves 
-
