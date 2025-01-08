@@ -8,11 +8,18 @@ public class Persona {
     String dni;
     String nombre;
     String apellido1;
-    String apellido 2;
+    String apellido;
     String correo;
     Integer movil;
     Date fechNacimiento;
 
     //Métodos
+
+    public Persona(String nom, String apel){
+
+        nombre=nom;
+        apellido1=apel;
+    }
+
 
 }
