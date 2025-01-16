@@ -1,19 +1,24 @@
-package UD03.javamanual;
-
-import java.util.Date;
+package ud03.javamanual;
 
 public class Centro {
 
-    //Atributos
-    Integer codigo;
-    String nombre;
-    String localidad;
-    String calle;
-    String numero;
-    Integer codigoPostal;
+    private Integer codigo;
+    private String nombre;
+    private String localidad;
+    private String calle;
+    private String numero;
+    private Integer codigoPostal;
+    
+    public Centro() {
+    }
 
-    public Centro(){
-        
+    public Centro(Integer codigo, String nombre, String localidad, String calle, String numero, Integer codigoPostal) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.localidad = localidad;
+        this.calle = calle;
+        this.numero = numero;
+        this.codigoPostal = codigoPostal;
     }
 
     public Integer getCodigo() {
@@ -66,11 +71,15 @@ public class Centro {
 
     @Override
     public String toString() {
-        return "Centro [getCodigo()=" + getCodigo() + ", getNombre()=" + getNombre() + ", getLocalidad()="
-                + getLocalidad() + ", getCalle()=" + getCalle() + ", getNumero()=" + getNumero()
-                + ", getCodigoPostal()=" + getCodigoPostal() + ", getClass()=" + getClass() + ", hashCode()="
-                + hashCode() + ", toString()=" + super.toString() + "]";
+        return "Centro [codigo=" + codigo + ", nombre=" + nombre + ", localidad=" + localidad + ", calle=" + calle
+                + ", numero=" + numero + ", codigoPostal=" + codigoPostal + "]";
     }
 
+    public String getDireccion() {
+        return localidad + " " +
+                calle + " " +
+                numero + " " +
+                codigoPostal;
 
-   
+    }
+}

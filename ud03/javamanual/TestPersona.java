@@ -1,4 +1,4 @@
-package UD03.javamanual;;
+package ud03.javamanual;
 
 public class TestPersona {
     public static void main(String[] args) {
@@ -6,9 +6,6 @@ public class TestPersona {
 
         mengano = new Persona();
         fulano = new Persona();
-
-        mengano.nombre = "Pepe";
-        fulano.nombre = "Manuel";
 
         System.out.println(mengano.getNombre());
 

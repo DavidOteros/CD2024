@@ -1,18 +1,18 @@
-package UD03.javamanual;
+package ud03.javamanual;
 
 import java.util.Date;
 
 public class Persona {
 
     //Atributos
-    String dni;
-    String nombre;
-    String apellido1;
-    String apellido2;
-    String correo;
-    Integer movil;
-    Date fecNacimiento;
-    String iban;
+    private String dni;
+    private String nombre;
+    private String apellido1;
+    private String apellido2;
+    private String correo;
+    private Integer movil;
+    private Date fecNacimiento;
+    private String iban;
 
     public Persona(){
         
@@ -69,7 +69,9 @@ public class Persona {
 
     @Override
     public String toString() {
-        return nombre + " é un bicho.";
+        return "Persona [dni=" + dni + ", nombre=" + nombre + ", apellido1=" + apellido1 + ", apellido2=" + apellido2
+                + ", correo=" + correo + ", movil=" + movil + ", fecNacimiento=" + fecNacimiento + ", iban=" + iban
+                + "]";
     }
 
     
