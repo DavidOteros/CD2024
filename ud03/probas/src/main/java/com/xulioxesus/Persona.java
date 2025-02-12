@@ -81,7 +81,7 @@ public class Persona {
         this.iban = iban;
     }
 
-    @Override
+    @Override //Afecta o método que está abaixo, todas as clases heredan de "object"
     public String toString() {
         return "Persona [dni=" + dni + ", nombre=" + nombre + ", apellido1=" + apellido1 + ", apellido2=" + apellido2
                 + ", correo=" + correo + ", movil=" + movil + ", fecNacimiento=" + fecNacimiento + ", iban=" + iban
