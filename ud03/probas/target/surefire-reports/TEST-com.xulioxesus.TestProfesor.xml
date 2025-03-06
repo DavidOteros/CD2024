@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="com.xulioxesus.TestPersona" time="0.007" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="com.xulioxesus.TestProfesor" time="0.031" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sonar.login" value="sqp_4510f56b914e8520a20739b887ab1c0e20d12932"/>
@@ -57,9 +57,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="comprobarSetters" classname="com.xulioxesus.TestPersona" time="0.0"/>
-  <testcase name="testToString" classname="com.xulioxesus.TestPersona" time="0.004"/>
-  <testcase name="comprobarConstructorVacio" classname="com.xulioxesus.TestPersona" time="0.001"/>
-  <testcase name="comprobarConstructorCompleto" classname="com.xulioxesus.TestPersona" time="0.0"/>
-  <testcase name="comprobarNombre" classname="com.xulioxesus.TestPersona" time="0.0"/>
+  <testcase name="testSetAndGetSustituto" classname="com.xulioxesus.TestProfesor" time="0.001"/>
+  <testcase name="testToString" classname="com.xulioxesus.TestProfesor" time="0.025"/>
+  <testcase name="testSetAndGetEspecialidad" classname="com.xulioxesus.TestProfesor" time="0.0"/>
+  <testcase name="testSetAndGetFecOposicion" classname="com.xulioxesus.TestProfesor" time="0.001"/>
+  <testcase name="testSetAndGetCuerpo" classname="com.xulioxesus.TestProfesor" time="0.001"/>
+  <testcase name="testSetAndGetNombre" classname="com.xulioxesus.TestProfesor" time="0.001"/>
 </testsuite>
