@@ -1,4 +1,4 @@
-package UltimoDia.src;
+package com.davidotero;
 
 public class Person {
     
