@@ -59,6 +59,7 @@ public class TestPersona {
         assertTrue(mengano.getDni().equals("12345678R"));
         assertTrue(mengano.getIban().equals("ES123456789"));
         assertEquals(mengano.getMovil(), 123456789);
+        // se utiliza en las pruebas unitarias para verificar que el valor devuelto por el método getFecNacimiento() es una instancia de la clase Date.
         assertTrue(mengano.getFecNacimiento() instanceof Date);
 
         assertTrue(mengano instanceof Persona);
