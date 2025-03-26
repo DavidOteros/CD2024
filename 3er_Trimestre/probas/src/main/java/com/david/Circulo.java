@@ -18,7 +18,7 @@ public class Circulo {
     }
 
     /**
-     * Método para establecer o eje X do Circulo
+     * Método para establecer o eixo X do Circulo
      * 
      * @param valorX Pvalor X do Circulo
      */
@@ -27,7 +27,7 @@ public class Circulo {
     }
 
     /**
-     * Método para obter o valor X do Circulo
+     * Método para obter o eixo X do Circulo
      * 
      * @return O valor X do Circulo
      */
@@ -37,7 +37,7 @@ public class Circulo {
 
     
     /** 
-     * Método para establecer o valor Y do Circulo
+     * Método para establecer o eixo Y do Circulo
      * 
      * @param valorY O valor Y do Circulo
      */
@@ -46,7 +46,7 @@ public class Circulo {
     }
 
     /**
-     * Método para obter o valor Y 
+     * Método para obter o eixo Y 
      * 
      * @return  Devolve o Valor Y do Circulo
      */
@@ -65,7 +65,7 @@ public class Circulo {
     }
 
     /**
-     * Método para obter o Radio 
+     * Método para obter o radio 
      * 
      * @return O radio do Circulo
      */
@@ -76,7 +76,7 @@ public class Circulo {
     /**
      * Método para obter o diámetro do Circulo
      * 
-     * @return Devolver o Diámetro do Circulo
+     * @return Devolve o Diámetro do Circulo
      */
     public double obtenerDiametro() {
         return radio * 2;

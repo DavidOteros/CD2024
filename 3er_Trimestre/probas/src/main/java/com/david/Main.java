@@ -2,7 +2,17 @@ package com.david;
 
 import java.text.DecimalFormat;
 
+/**
+ * Clase que nos permite comprobar a Clase Obxeto Circulo
+ */
+
 public class Main {
+
+    /**
+     * Método main que nos mostra os comportamentos da Clase Obxeto Circulo
+     * @param args O constructor do circulo e a aplicación dos distintos métodos
+     */
+
     public static void main(String[] args) {
         Circulo circulo = new Circulo(37,43,2.5);
         String salida =
