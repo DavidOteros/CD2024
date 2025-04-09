@@ -32,8 +32,13 @@ public class PersonaTest {
     @Test
     public void comprobarImprimirDetalles() {
         Persona p = new Persona("David", 25);
-        
-        String salidaEsperada = "Nombre: David Edad: 25";
-        assertEquals(salidaEsperada, p.imprimirDetalles());
+    
+        ByteArrayOutputStream salidaConsola = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(salidaConsola));
+    
+        p.imprimirDetalles();
+    
+        String salidaEsperada = "Nombre: David\nEdad: 25\n";
+        assertEquals(salidaEsperada, salidaConsola.toString());
     }
 }

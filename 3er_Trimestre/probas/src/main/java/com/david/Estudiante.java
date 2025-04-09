@@ -1,5 +1,4 @@
 package com.david;
-
 public class Estudiante {
 
     private String nombre;
@@ -7,9 +6,9 @@ public class Estudiante {
     private double calificacion;
 
     /**
-     * Constructor da Clase Estudiante
-     * @param nombre Nombre de Estudiante
-     * @param edad Edad de Estudiante
+     * Constructor da Clase Estudiante.
+     * @param nombre Nombre de Estudiante.
+     * @param edad Edad de Estudiante.
      */
     public Estudiante(String nombre, int edad) {
         this.nombre = nombre;
