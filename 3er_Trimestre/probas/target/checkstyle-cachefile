@@ -1,3 +1,5 @@
-#Wed Apr 09 09:32:03 CEST 2025
-configuration*?=E86F086EBEC0B5409167093D9DBFEA17A78B03C
-module-resource*?\:checkstyle/suppressions.xml=18DF92DFC89CA15014CB5FB50510982895A32C45
+#Wed Apr 09 10:25:26 CEST 2025
+/home/vagrant/Desktop/CD2024/CD2024/3er_Trimestre/probas/src/main/java/com/david/Circulo.java=1744185536480
+/home/vagrant/Desktop/CD2024/CD2024/3er_Trimestre/probas/src/main/java/com/david/Estudiante.java=1744187118404
+configuration*?=288CE2805C213B9D79E1A1B8AC33DEEA861CD2DC
+module-resource*?\:checkstyle/suppressions.xml=DFA593FEC598A757879C7A14D63CF01C86EBDBB8

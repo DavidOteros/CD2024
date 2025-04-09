@@ -1,5 +1,14 @@
 package com.david;
+
+/**
+ * Clase Estudiante que representa un alumno con nombre, edad y calificación.
+ */
+
 public class Estudiante {
+
+    private static final double NOTA = 5.0;
+    private static final int DIVISOR_EDAD = 12;
+    private static final int MAIORIA_EDAD = 18;
 
     private String nombre;
     private int edad;
@@ -8,7 +17,7 @@ public class Estudiante {
     /**
      * Constructor da Clase Estudiante.
      * @param nombre Nombre de Estudiante.
-     * @param edad Edad de Estudiante.
+     * @param edad   Edad de Estudiante.
      */
     public Estudiante(String nombre, int edad) {
         this.nombre = nombre;
@@ -17,79 +26,81 @@ public class Estudiante {
     }
 
     /**
-     * Método para poñer a calificación
-     * @param calificacion Calificación de Estudiante
+     * Método para poñer a calificación.
+     * @param calificacion Calificación de Estudiante.
      */
     public void setCalificacion(double calificacion) {
         this.calificacion = calificacion;
     }
 
     /**
-     * Métogo Get Nome
-     * @return Nombre de Estudiante
+     * Métogo Get Nome.
+     * @return Nombre de Estudiante.
      */
     public String getNombre() {
         return nombre;
     }
 
     /**
-     * Método Set Nome
-     * @param nombre Nombre de Estudiante
+     * Método Set Nome.
+     * @param nombre Nombre de Estudiante.
      */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
     /**
-     * Método Get Edad 
-     * @return Edad do Estudiante
+     * Método Get Edad.
+     * @return Edad do Estudiante.
      */
     public int getEdad() {
         return edad;
     }
 
     /**
-     * Método Set Edad 
-     * @param edad Edad do Estudiante
+     * Método Set Edad.
+     * @param edad Edad do Estudiante.
      */
     public void setEdad(int edad) {
         this.edad = edad;
     }
 
     /**
-     * Método Get Calificación
-     * @return Devolve a Calificación do Estudiante
+     * Método Get Calificación.
+     * @return Devolve a Calificación do Estudiante.
      */
     public double getCalificacion() {
         return calificacion;
     }
 
     /**
-     * Métódo booleano para saber se aproba o Estudiante
-     * @return true ou false dependendo de se o Estudiante aprobou ou no (Calificación >= 5 --> True)
+     * Métódo booleano para saber se aproba o Estudiante.
+     * @return true ou false dependendo de se o Estudiante aprobou ou no
+     *         (Calificación >= 5 --> True).
      */
     public boolean aprobo() {
-        return calificacion >= 5.0;
+        return calificacion >= NOTA;
     }
 
     /**
-     * Método que calcula a Edade Escolar do Estudiante
-     * @return Edad Escolar do Estudiante 
+     * Método que calcula a Edade Escolar do Estudiante.
+     * @return Edad Escolar do Estudiante.
      */
     public int edadEscolar() {
-        return edad / 12;
+        return edad / DIVISOR_EDAD;
     }
 
     /**
-     * Método booleano que verifica se o Estudiante é maior de 18 anos
-     * @return Booleano que verifica se o Estudiante está na idade universitaria ou no (Edad >= 18 --> True)
+     * Método booleano que verifica se o Estudiante é maior de 18 anos.
+     * @return Booleano que verifica se o Estudiante está na idade universitaria ou
+     *         no (Edad >= 18 --> True).
      */
     public boolean esUniversitario() {
-        return edad >= 18;
+        return edad >= MAIORIA_EDAD;
     }
 
     /**
-     * Método que imprime a información do Usuario
+     * Método que imprime a información do Usuario.
      */
     public void imprimirInformacion() {
         System.out.println("Nombre: " + nombre);
