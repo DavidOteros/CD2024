@@ -5,7 +5,6 @@ public class Persona {
     private String nombre;
     private int edad;
 
-
     /**
      * Constructor da Clase Persoa.
      * @param nombre Nombre da Clase Persoa.
@@ -25,7 +24,7 @@ public class Persona {
     }
 
     /**
-     * Método para Settear o Nome. 
+     * Método para Settear o Nome.
      * @param nombre Nombre do obxeto.
      */
     public void setNombre(String nombre) {

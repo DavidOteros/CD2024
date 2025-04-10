@@ -1,5 +1,9 @@
-#Wed Apr 09 10:25:26 CEST 2025
+#Thu Apr 10 12:51:08 CEST 2025
 /home/vagrant/Desktop/CD2024/CD2024/3er_Trimestre/probas/src/main/java/com/david/Circulo.java=1744185536480
 /home/vagrant/Desktop/CD2024/CD2024/3er_Trimestre/probas/src/main/java/com/david/Estudiante.java=1744187118404
+/home/vagrant/Desktop/CD2024/CD2024/3er_Trimestre/probas/src/main/java/com/david/Persona.java=1744280627382
+/home/vagrant/Desktop/CD2024/CD2024/3er_Trimestre/probas/src/test/java/com/david/CirculoTest.java=1744280286467
+/home/vagrant/Desktop/CD2024/CD2024/3er_Trimestre/probas/src/test/java/com/david/EstudianteTest.java=1744280663685
+/home/vagrant/Desktop/CD2024/CD2024/3er_Trimestre/probas/src/test/java/com/david/PersonaTest.java=1744280636263
 configuration*?=288CE2805C213B9D79E1A1B8AC33DEEA861CD2DC
 module-resource*?\:checkstyle/suppressions.xml=DFA593FEC598A757879C7A14D63CF01C86EBDBB8
