@@ -10,6 +10,19 @@ public class Fecha {
     private static final int COMPROBANTE4 = 4;
     private static final int COMPROBANTE100 = 100;
     private static final int COMPROBANTE400 = 400;
+    private static final int C1 = 1;
+    private static final int C2 = 2;
+    private static final int C3 = 3;
+    private static final int C4 = 4;
+    private static final int C5 = 5;
+    private static final int C6 = 6;
+    private static final int C7 = 7;
+    private static final int C8 = 8;
+    private static final int C9 = 9;
+    private static final int C10 = 10;
+    private static final int C11 = 11;
+    private static final int C12 = 12;
+
     private int dia;
     private int mes;
     private int anio;
@@ -31,44 +44,44 @@ public class Fecha {
         int diasMes = 0;
 
         switch (mes) {
-            case 1:
+            case C1:
                 diasMes = DIA_31;
                 break;
-            case 2:
+            case C2:
                 if (anio % COMPROBANTE400 == 0 || anio % COMPROBANTE4 == 0 && anio % COMPROBANTE100 != 0) {
                     diasMes = DIA_29;
                 } else {
                     diasMes = DIA_28;
                 }
                 break;
-            case 3:
+            case C3:
                 diasMes = DIA_31;
                 break;
-            case 4:
+            case C4:
                 diasMes = DIA_30;
                 break;
-            case 5:
+            case C5:
                 diasMes = DIA_31;
                 break;
-            case 6:
+            case C6:
                 diasMes = DIA_30;
                 break;
-            case 7:
+            case C7:
                 diasMes = DIA_31;
                 break;
-            case 8:
+            case C8:
                 diasMes = DIA_31;
                 break;
-            case 9:
+            case C9:
                 diasMes = DIA_30;
                 break;
-            case 10:
+            case C10:
                 diasMes = DIA_31;
                 break;
-            case 11:
+            case C11:
                 diasMes = DIA_30;
                 break;
-            case 12:
+            case C12:
                 diasMes = DIA_31;
                 break;
             default:
