@@ -1,0 +1,43 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'/Users/david/Mi Mac/DAW/Contornos de Desenvolvemento/Visual Studio Code/CD2024/3er_Trimestre/probas/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/david/Mi Mac/DAW/Contornos de Desenvolvemento/Visual Studio Code/CD2024/3er_Trimestre/probas/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'doc 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/Users/david/Mi Mac/DAW/Contornos de Desenvolvemento/Visual Studio Code/CD2024/3er_Trimestre/probas/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'doc 1.0-SNAPSHOT API'
+com.david
+/Users/david/Mi Mac/DAW/Contornos de Desenvolvemento/Visual Studio Code/CD2024/3er_Trimestre/probas/src/main/java = 1745494194270
+/Users/david/Mi Mac/DAW/Contornos de Desenvolvemento/Visual Studio Code/CD2024/3er_Trimestre/probas/target/reports/apidocs/tag-search-index.js = 1747931132257
+/Users/david/Mi Mac/DAW/Contornos de Desenvolvemento/Visual Studio Code/CD2024/3er_Trimestre/probas/target/reports/apidocs/overview-tree.html = 1747931132251
+/Users/david/Mi Mac/DAW/Contornos de Desenvolvemento/Visual Studio Code/CD2024/3er_Trimestre/probas/target/reports/apidocs/module-search-index.js = 1747931132257
+/Users/david/Mi Mac/DAW/Contornos de Desenvolvemento/Visual Studio Code/CD2024/3er_Trimestre/probas/target/reports/apidocs/index.html = 1747931132264
+/Users/david/Mi Mac/DAW/Contornos de Desenvolvemento/Visual Studio Code/CD2024/3er_Trimestre/probas/target/reports/apidocs/package-search-index.js = 1747931132257
+/Users/david/Mi Mac/DAW/Contornos de Desenvolvemento/Visual Studio Code/CD2024/3er_Trimestre/probas/target/reports/apidocs/index-all.html = 1747931132263
+/Users/david/Mi Mac/DAW/Contornos de Desenvolvemento/Visual Studio Code/CD2024/3er_Trimestre/probas/target/reports/apidocs/allpackages-index.html = 1747931132256
+/Users/david/Mi Mac/DAW/Contornos de Desenvolvemento/Visual Studio Code/CD2024/3er_Trimestre/probas/target/reports/apidocs/member-search-index.js = 1747931132257
+/Users/david/Mi Mac/DAW/Contornos de Desenvolvemento/Visual Studio Code/CD2024/3er_Trimestre/probas/target/reports/apidocs/help-doc.html = 1747931132266
+/Users/david/Mi Mac/DAW/Contornos de Desenvolvemento/Visual Studio Code/CD2024/3er_Trimestre/probas/target/reports/apidocs/element-list = 1747931132240
+/Users/david/Mi Mac/DAW/Contornos de Desenvolvemento/Visual Studio Code/CD2024/3er_Trimestre/probas/target/reports/apidocs/search.html = 1747931132263
+/Users/david/Mi Mac/DAW/Contornos de Desenvolvemento/Visual Studio Code/CD2024/3er_Trimestre/probas/target/reports/apidocs/allclasses-index.html = 1747931132255
+/Users/david/Mi Mac/DAW/Contornos de Desenvolvemento/Visual Studio Code/CD2024/3er_Trimestre/probas/target/reports/apidocs/type-search-index.js = 1747931132257
